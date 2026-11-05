@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
-remote_url='https://github.com/marina22121979-web/video-editing-skills.git'
+remote_url='https://github.com/marina22121979-web/-.git'
 python tools/build_catalog.py
 if git remote get-url origin >/dev/null 2>&1; then
   actual_url="$(git remote get-url origin)"
