@@ -1,0 +1,18 @@
+vfx-video (vfxkit)
+Copyright 2026 GordenSun
+
+This product includes software developed by GordenSun.
+Licensed under the Apache License, Version 2.0.
+
+This project depends on the following third-party open-source software,
+each under its own license (installed separately via pip / system package
+manager, not redistributed here):
+
+  - NumPy        (BSD-3-Clause)        https://numpy.org/
+  - SciPy        (BSD-3-Clause)        https://scipy.org/
+  - Pillow       (MIT-CMU / HPND)      https://python-pillow.org/
+  - FFmpeg       (LGPL/GPL, system)    https://ffmpeg.org/
+  - Manim        (MIT, optional)       https://www.manim.community/
+
+Reference implementation acknowledged in documentation:
+  - ManimCommunity/manim               https://github.com/ManimCommunity/manim

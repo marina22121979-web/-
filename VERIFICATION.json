@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "queries": 12,
+  "candidate_repositories": 285,
+  "inspected_repositories": 280,
+  "repositories_with_skill_files": 240,
+  "saved_skill_files": 796,
+  "unique_saved_contents": 776,
+  "saved_source_repositories": 168,
+  "license_files": 181,
+  "link_only_skill_files": 117,
+  "categories": {
+    "After Effects": 26,
+    "CapCut / Jianying": 13,
+    "DaVinci Resolve": 41,
+    "FFmpeg": 7,
+    "Final Cut Pro / FCPXML": 7,
+    "Premiere Pro": 21,
+    "Remotion": 31,
+    "Анимация и VFX": 178,
+    "Монтаж и видеопроизводство": 415,
+    "Субтитры и звук": 49,
+    "Цветокоррекция": 8
+  },
+  "hash_verification": "all snapshots match original upstream Git blob SHA-1"
+}
