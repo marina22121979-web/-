@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "background-plan",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "background",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "probe",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "cut-plan",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "cut",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "frame",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "skin-lut",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "auto-grade",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "color-plan",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "color-render",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "subtitle-render",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "platform-export",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "final-probe",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "final-look",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "check": "global-discovery",
+      "passed": true
+    },
+    {
+      "check": "blur-export-preserves-caption",
+      "passed": true,
+      "method": "Encoded with platform-spec-export --mode blur, probed output, inspected frame at 1 second."
+    }
+  ],
+  "test_media": "synthetic solid-color video; no personal media used",
+  "limitations": [
+    "LUT skin-color correction has no face tracking or wrinkle removal",
+    "Automatic transcription and optional translation engines not installed",
+    "Physical iPhone playback not tested"
+  ],
+  "final_probe": {
+    "file": "/workspace/video-tools/smoke-small/export-blur/subtitled_square.mp4",
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration": 2.0,
+    "start_time": 0.0,
+    "size_bytes": 14556,
+    "bitrate": 58224,
+    "video": {
+      "codec": "h264",
+      "profile": "High",
+      "width": 1080,
+      "height": 1080,
+      "display_aspect": "1:1",
+      "fps": 30.0,
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "variable_frame_rate_suspected": false,
+      "pix_fmt": "yuv420p",
+      "bit_depth": 8,
+      "hdr": false,
+      "hdr_signal": false,
+      "bt2020_or_hdr": false,
+      "hdr_format": null,
+      "dolby_vision": null,
+      "color_space": "bt709",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_range": "tv",
+      "rotation": 0,
+      "nb_frames": 60,
+      "duration": 2.0,
+      "tagged_duration": null,
+      "start_time": 0.0,
+      "bitrate": 51780
+    },
+    "audio": null,
+    "subtitle_streams": 0,
+    "data_streams": 0,
+    "stream_counts": {
+      "video": 1,
+      "audio": 0
+    },
+    "chapters": [],
+    "tags": {},
+    "timecode": {
+      "value": null,
+      "drop_frame": null,
+      "source": null
+    },
+    "subtitle_stream_details": []
+  },
+  "initial_trial": {
+    "auto_lut_fit_full_preview": "timed out at 120 seconds",
+    "resolution": "Repeated with a 64-pixel-wide diagnostic frame; LUT fitting passed. Use reduced diagnostic frames for fitting on CPU.",
+    "crop_export": "Center crop cut off bottom captions as expected; switched to blur/pad to preserve the complete captioned frame."
+  },
+  "visual_review": "Corrected blur/pad export inspected: both Cyrillic words fully visible. Timecode in preview is a diagnostic overlay."
+}

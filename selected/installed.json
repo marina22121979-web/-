@@ -1,0 +1,53 @@
+{
+  "skills": [
+    {
+      "name": "ffmpeg-skill",
+      "repository": "kajisho5/ffmpeg-skill",
+      "commit": "45d193aa478a1be3d5a078f26274d670173f4cf2",
+      "url": "https://github.com/kajisho5/ffmpeg-skill/tree/45d193aa478a1be3d5a078f26274d670173f4cf2",
+      "purpose_ru": "Монтаж, звук, фильтры и проверка MP4",
+      "package_path": "selected/ffmpeg-skill",
+      "installed_path": "/home/agent/.codex/skills/ffmpeg-skill"
+    },
+    {
+      "name": "color-grade",
+      "repository": "isaacrowntree/color-grade-ai",
+      "commit": "a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+      "url": "https://github.com/isaacrowntree/color-grade-ai/tree/a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+      "purpose_ru": "Измерение цвета и LUT для коррекции красноты кожи",
+      "package_path": "selected/color-grade",
+      "installed_path": "/home/agent/.codex/skills/color-grade"
+    },
+    {
+      "name": "color-grading",
+      "repository": "kajisho5/color-grading-skill",
+      "commit": "2b5b1a5f0075824fedb51b7c92031d417527023a",
+      "url": "https://github.com/kajisho5/color-grading-skill/tree/2b5b1a5f0075824fedb51b7c92031d417527023a",
+      "purpose_ru": "HDR iPhone → SDR и применение цветокоррекции",
+      "package_path": "selected/color-grading",
+      "installed_path": "/home/agent/.codex/skills/color-grading"
+    },
+    {
+      "name": "subtitle-skill",
+      "repository": "kajisho5/subtitle-skill",
+      "commit": "4a91f76896547ee4bc6cf925298c1ace23844083",
+      "url": "https://github.com/kajisho5/subtitle-skill/tree/4a91f76896547ee4bc6cf925298c1ace23844083",
+      "purpose_ru": "Генерация и встраивание субтитров по готовому тексту",
+      "package_path": "selected/subtitle-skill",
+      "installed_path": "/home/agent/.codex/skills/subtitle-skill"
+    },
+    {
+      "name": "platform-spec-export",
+      "repository": "xianyu110/ecommerce-video-skills",
+      "commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "url": "https://github.com/xianyu110/ecommerce-video-skills/tree/96c49b349b7d975bda8f05ce6669c1d33500c269",
+      "purpose_ru": "Экспорт H.264/AAC для телефона и социальных сетей",
+      "package_path": "selected/platform-spec-export",
+      "installed_path": "/home/agent/.codex/skills/platform-spec-export"
+    }
+  ],
+  "runtime": "/workspace/video-tools/.venv",
+  "status": "installed and smoke-tested",
+  "verification": "selected/verification.json",
+  "discovery": "Five skill directories registered under /home/agent/.codex/skills"
+}

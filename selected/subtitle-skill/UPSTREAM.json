@@ -1,0 +1,9 @@
+{
+  "name": "subtitle-skill",
+  "repository": "kajisho5/subtitle-skill",
+  "commit": "4a91f76896547ee4bc6cf925298c1ace23844083",
+  "url": "https://github.com/kajisho5/subtitle-skill/tree/4a91f76896547ee4bc6cf925298c1ace23844083",
+  "purpose_ru": "Генерация и встраивание субтитров по готовому тексту",
+  "package_path": "selected/subtitle-skill",
+  "installed_path": "/home/agent/.codex/skills/subtitle-skill"
+}

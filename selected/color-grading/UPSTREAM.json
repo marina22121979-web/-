@@ -1,0 +1,9 @@
+{
+  "name": "color-grading",
+  "repository": "kajisho5/color-grading-skill",
+  "commit": "2b5b1a5f0075824fedb51b7c92031d417527023a",
+  "url": "https://github.com/kajisho5/color-grading-skill/tree/2b5b1a5f0075824fedb51b7c92031d417527023a",
+  "purpose_ru": "HDR iPhone → SDR и применение цветокоррекции",
+  "package_path": "selected/color-grading",
+  "installed_path": "/home/agent/.codex/skills/color-grading"
+}

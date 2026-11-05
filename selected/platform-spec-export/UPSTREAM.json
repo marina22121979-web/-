@@ -1,0 +1,9 @@
+{
+  "name": "platform-spec-export",
+  "repository": "xianyu110/ecommerce-video-skills",
+  "commit": "96c49b349b7d975bda8f05ce6669c1d33500c269",
+  "url": "https://github.com/xianyu110/ecommerce-video-skills/tree/96c49b349b7d975bda8f05ce6669c1d33500c269",
+  "purpose_ru": "Экспорт H.264/AAC для телефона и социальных сетей",
+  "package_path": "selected/platform-spec-export",
+  "installed_path": "/home/agent/.codex/skills/platform-spec-export"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "color-grade",
+  "repository": "isaacrowntree/color-grade-ai",
+  "commit": "a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+  "url": "https://github.com/isaacrowntree/color-grade-ai/tree/a6eef94e0d773b1a9475cd9bac8bc15bc3944f46",
+  "purpose_ru": "Измерение цвета и LUT для коррекции красноты кожи",
+  "package_path": "selected/color-grade",
+  "installed_path": "/home/agent/.codex/skills/color-grade"
+}

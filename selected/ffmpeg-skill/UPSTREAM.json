@@ -1,0 +1,9 @@
+{
+  "name": "ffmpeg-skill",
+  "repository": "kajisho5/ffmpeg-skill",
+  "commit": "45d193aa478a1be3d5a078f26274d670173f4cf2",
+  "url": "https://github.com/kajisho5/ffmpeg-skill/tree/45d193aa478a1be3d5a078f26274d670173f4cf2",
+  "purpose_ru": "Монтаж, звук, фильтры и проверка MP4",
+  "package_path": "selected/ffmpeg-skill",
+  "installed_path": "/home/agent/.codex/skills/ffmpeg-skill"
+}
