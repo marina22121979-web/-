@@ -1,0 +1,40 @@
+{
+  "downloaded_skill_count": 5,
+  "downloaded_source_files": 31,
+  "byte_identity_checks": 31,
+  "packages": [
+    {
+      "skill": "heygen-avatar",
+      "frontmatter_valid": true,
+      "license_present": true,
+      "file_count": 5
+    },
+    {
+      "skill": "heygen-video",
+      "frontmatter_valid": true,
+      "license_present": true,
+      "file_count": 11
+    },
+    {
+      "skill": "text-to-speech",
+      "frontmatter_valid": true,
+      "license_present": true,
+      "file_count": 5
+    },
+    {
+      "skill": "elevenlabs",
+      "frontmatter_valid": true,
+      "license_present": true,
+      "file_count": 8
+    },
+    {
+      "skill": "character-consistency",
+      "frontmatter_valid": true,
+      "license_present": true,
+      "file_count": 2
+    }
+  ],
+  "errors": [],
+  "generation_test": "Not run. Download and local registration only; provider authentication and credits not configured by this task.",
+  "registered_skill_count": 5
+}

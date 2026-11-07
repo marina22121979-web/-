@@ -55,5 +55,7 @@ readme_text='\n'.join(readme)+'\n'
 if (root/'selected/installed.json').exists():
     readme_text=readme_text.replace('## Каталог','## Выбранные и установленные пять\n\n[Открыть установленный набор](selected/README.md) — монтаж, коррекция красноты кожи, HDR iPhone, субтитры и экспорт. Полные рабочие пакеты лежат в `selected/`; остальные файлы ниже — библиотечные снимки.\n\n## Каталог',1)
     readme_text=readme_text.replace('Навыки не установлены и автоматически не активируются.','Навыки из общего каталога не установлены и автоматически не активируются. Пять выбранных пакетов отдельно установлены в текущую среду, см. `selected/README.md`.')
+if (root/'digital-twin/installed.json').exists():
+    readme_text=readme_text.replace('## Каталог','## Цифровой двойник\n\n[Пять навыков для вашего цифрового двойника](digital-twin/README.md): аватар, говорящие видео, озвучка, клонирование собственного голоса и последовательность внешности.\n\n## Каталог',1)
 (root/'README.md').write_text(readme_text)
 print(json.dumps(summary,ensure_ascii=False))

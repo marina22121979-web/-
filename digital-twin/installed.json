@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-07",
+  "selection": "Five complementary skills for the user's own video digital twin; preference for official provider skills, explicit voice cloning, and reusable visual identity.",
+  "installation_status": "downloaded, source-verified, registered in current Codex environment",
+  "packages": [
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "license": "MIT",
+      "directory": "digital-twin/skills/heygen-avatar",
+      "installed_path": "/home/agent/.codex/skills/heygen-avatar",
+      "official": true
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "license": "MIT",
+      "directory": "digital-twin/skills/heygen-video",
+      "installed_path": "/home/agent/.codex/skills/heygen-video",
+      "official": true
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "license": "MIT",
+      "directory": "digital-twin/skills/text-to-speech",
+      "installed_path": "/home/agent/.codex/skills/text-to-speech",
+      "official": true
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "license": "MIT",
+      "directory": "digital-twin/skills/elevenlabs",
+      "installed_path": "/home/agent/.codex/skills/elevenlabs",
+      "official": false
+    },
+    {
+      "repo": "nigo-studio/ai-film-skills",
+      "prefix": ".claude/skills/character-consistency",
+      "name": "character-consistency",
+      "purpose": "Промпты и референсы для сохранения внешности в разных сценах",
+      "commit": "d975e617e46377673dc7161a9acda2834854e7c6",
+      "license": "MIT",
+      "directory": "digital-twin/skills/character-consistency",
+      "installed_path": "/home/agent/.codex/skills/character-consistency",
+      "official": false
+    }
+  ],
+  "files": [
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-avatar/references/avatar-creation.md",
+      "sha": "96819f5ffc6c1c3202d3b783ba0aea4d0d776b47",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-avatar/references/avatar-creation.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "LICENSE",
+      "sha": "95706d1dfce9dbc7dfac482ed2176ebc4ffa96b4",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/LICENSE"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "LICENSE",
+      "sha": "95706d1dfce9dbc7dfac482ed2176ebc4ffa96b4",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-avatar/LICENSE"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/prompt-craft.md",
+      "sha": "c32df69432b999dcfb84388c03c3bd5e69d14f89",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/prompt-craft.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/scripts/update-check.sh",
+      "sha": "6b699618e848b44d7a71437ac3c1725723626130",
+      "mode": "100755",
+      "path": "digital-twin/skills/heygen-video/scripts/update-check.sh"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/asset-routing.md",
+      "sha": "3272120b595a099b9a915508ede97d6fe0b9116c",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/asset-routing.md"
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "upstream_path": "text-to-speech/references/streaming.md",
+      "sha": "79150e0cf4d0d37d561708493bfa4d6410125e80",
+      "mode": "100644",
+      "path": "digital-twin/skills/text-to-speech/references/streaming.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/prompt-styles.md",
+      "sha": "3961fbd0d1e3fc529887fcf9a104fb1675043601",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/prompt-styles.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/utilities.md",
+      "sha": "5ec52aebb10c63069b7f438872fdcd7a967f9bb1",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/utilities.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/frame-check.md",
+      "sha": "37c24da892ad76da02f9a2a85cea354d23f50b4b",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/frame-check.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/motion-vocabulary.md",
+      "sha": "4d27b306cfbd102d3c353d561a4f0fbf8c10b7ab",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/motion-vocabulary.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-avatar/SKILL.md",
+      "sha": "a91e8ab3c22f0f10ce5f1458434a3e110d0bb3f6",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-avatar/SKILL.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "LICENSE",
+      "sha": "add5bdb23f70a70df79f316358311e489cb8e166",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/LICENSE"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/SKILL.md",
+      "sha": "f4099da858604d8b5a6f947ddbf0ceb287fce010",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/SKILL.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/transcription.md",
+      "sha": "b35e8e6d7a4b6c756b1b72af05fd770fde2e3c74",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/transcription.md"
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "upstream_path": "LICENSE",
+      "sha": "61c1c47ce5964af14a44759b75bd61e5925a898c",
+      "mode": "100644",
+      "path": "digital-twin/skills/text-to-speech/LICENSE"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/voices.md",
+      "sha": "3f3feebb14d37f284d4279741985a97227ad7455",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/voices.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/troubleshooting.md",
+      "sha": "421bab5f1d2984297ee867436e8e4319cf9653bf",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/troubleshooting.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/avatar-discovery.md",
+      "sha": "1dc5cd46afe1a4c5eed87dd7ef215f95929e8d04",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/avatar-discovery.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/speech.md",
+      "sha": "48cbf2b9a6db2d1e5b98744226e49699fe31738d",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/speech.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-video",
+      "name": "heygen-video",
+      "purpose": "Говорящие видео с аватаром, голосом и синхронизацией губ",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-video/references/official-prompt-guide.md",
+      "sha": "15af5dd8b99cf0e981a3d20b6ad5ae22e72dd59d",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-video/references/official-prompt-guide.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/dubbing.md",
+      "sha": "118e1f79447f30b6e92804cff1c9f6cad3dbcb4a",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/dubbing.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/SKILL.md",
+      "sha": "faf1064b1bb95567ada92a83ff8c7699363af2c2",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/SKILL.md"
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "upstream_path": "text-to-speech/SKILL.md",
+      "sha": "71769b50fc2778d46f7b083cf57c65d645549cab",
+      "mode": "100644",
+      "path": "digital-twin/skills/text-to-speech/SKILL.md"
+    },
+    {
+      "repo": "adriendidoudid/eleven-sk",
+      "prefix": "skills/elevenlabs",
+      "name": "elevenlabs",
+      "purpose": "Создание и управление клоном собственного голоса",
+      "commit": "55a1662ff038fc0c21691cb6e673c5a48d36423f",
+      "upstream_path": "skills/elevenlabs/references/music.md",
+      "sha": "eeaeb837f4edf587f831e62598cd071b638c2354",
+      "mode": "100644",
+      "path": "digital-twin/skills/elevenlabs/references/music.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-avatar/references/asset-routing.md",
+      "sha": "3272120b595a099b9a915508ede97d6fe0b9116c",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-avatar/references/asset-routing.md"
+    },
+    {
+      "repo": "nigo-studio/ai-film-skills",
+      "prefix": ".claude/skills/character-consistency",
+      "name": "character-consistency",
+      "purpose": "Промпты и референсы для сохранения внешности в разных сценах",
+      "commit": "d975e617e46377673dc7161a9acda2834854e7c6",
+      "upstream_path": "LICENSE",
+      "sha": "0af9302ef617913f193a1aa04e475e49c6d465c4",
+      "mode": "100644",
+      "path": "digital-twin/skills/character-consistency/LICENSE"
+    },
+    {
+      "repo": "nigo-studio/ai-film-skills",
+      "prefix": ".claude/skills/character-consistency",
+      "name": "character-consistency",
+      "purpose": "Промпты и референсы для сохранения внешности в разных сценах",
+      "commit": "d975e617e46377673dc7161a9acda2834854e7c6",
+      "upstream_path": ".claude/skills/character-consistency/SKILL.md",
+      "sha": "e322807363bc7dc2a25781567cca0eb2127cba9d",
+      "mode": "100644",
+      "path": "digital-twin/skills/character-consistency/SKILL.md"
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "upstream_path": "text-to-speech/references/voice-settings.md",
+      "sha": "82db41e8bcb8160834cf6adf7fa196bb3fd8c4f2",
+      "mode": "100644",
+      "path": "digital-twin/skills/text-to-speech/references/voice-settings.md"
+    },
+    {
+      "repo": "heygen-com/skills",
+      "prefix": "heygen-avatar",
+      "name": "heygen-avatar",
+      "purpose": "Аватар с вашей внешностью и постоянной идентичностью",
+      "commit": "1bd5e4d33a028dfed3abf504c5e3dd644fb9ea8a",
+      "upstream_path": "heygen-avatar/references/troubleshooting.md",
+      "sha": "421bab5f1d2984297ee867436e8e4319cf9653bf",
+      "mode": "100644",
+      "path": "digital-twin/skills/heygen-avatar/references/troubleshooting.md"
+    },
+    {
+      "repo": "elevenlabs/skills",
+      "prefix": "text-to-speech",
+      "name": "text-to-speech",
+      "purpose": "Озвучка новых текстов выбранным голосом, в том числе русских",
+      "commit": "9763c39a9d7add478b2f2d8229f0caadf5414f5f",
+      "upstream_path": "text-to-speech/references/installation.md",
+      "sha": "cd5cce97f3b91f31ccbf71163d391027a9272851",
+      "mode": "100644",
+      "path": "digital-twin/skills/text-to-speech/references/installation.md"
+    }
+  ],
+  "generation_status": "not_started",
+  "requirements": {
+    "heygen": "HeyGen account and connected MCP or authenticated CLI; service usage may require credits.",
+    "elevenlabs": "ElevenLabs API connection and plan allowing the requested voice operation.",
+    "character_consistency": "Prompt workflow; an image/video generator is needed separately."
+  },
+  "privacy": "No user photo, personal video, voice sample, or API key was uploaded or stored in this repository."
+}
